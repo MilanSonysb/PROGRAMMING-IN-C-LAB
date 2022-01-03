@@ -3,14 +3,14 @@ void main()
 {
     int a[5],i;
     printf("Enter the array elements");
-    for(i=0;i<=5;i++)
+    for(i=0;i<5;i++)
     {
     scanf("%d",&a[i]);
     }
     printf("Array element are");
-    for(i=0;i<=5;i++)
+    for(i=0;i<5;i++)
     {
-    printf("%d\t,&a[i];
+    printf("%d\t",a[i]);
     }
 }
    
